@@ -1,0 +1,47 @@
+.not-found-model {
+  background: #1a0a0a;
+  border-radius: 16px;
+  margin: 40px 0;
+  padding: 32px 24px;
+  align-items: center;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.12);
+  max-width: 1052px;
+  margin: auto;
+}
+
+.not-found-model h3 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 18px;
+  color: var(--white);
+}
+
+.not-found-model .btn-ghost {
+  margin-top: 10px;
+  border-color: var(--accent);
+  color: var(--accent);
+  transition: background 0.3s, color 0.3s, border 0.3s;
+}
+
+.not-found-model .btn-ghost:hover {
+  background: var(--accent);
+  color: var(--white);
+  border-color: var(--accent);
+}
+
+.not-found-desc {
+  color: var(--muted);
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .not-found-model {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 24px 10px;
+  }
+  .not-found-desc {
+    margin-top: 18px;
+  }
+}

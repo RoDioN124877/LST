@@ -1,0 +1,13 @@
+@media (max-width: 900px) {
+  .hero-inner {
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 22px;
+  }
+  .hero-media img {
+    max-width: 100%;
+  }
+}

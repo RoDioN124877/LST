@@ -1,0 +1,18 @@
+:root {
+  --bg: #1a0a0a;
+  --card: #220000;
+  --muted: #b0b0b0;
+  --accent: #c1001f;
+  --white: #ffffff;
+  --glass: rgba(255, 255, 255, 0.03);
+  font-size: 16px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Inter, system-ui, Segoe UI, Roboto, "Helvetica Neue", Arial;
+  margin: 0;
+  color: var(--white);
+  background: linear-gradient(180deg, var(--bg) 0%, #000 100%);
+}
