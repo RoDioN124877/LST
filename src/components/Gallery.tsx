@@ -7,15 +7,15 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // Твои картинки
-export const galleryImages: string[] = [
-  "/images/gallery1.jpg",
-  "/images/gallery2.jpg",
-  "/images/gallery3.jpg",
-  "/images/gallery4.jpg",
-  "/images/gallery5.jpg",
-  "/images/gallery6.jpg",
-];
-
+// export const galleryImages: string[] = [
+//   "images/gallery1.jpg",
+//   "images/gallery2.jpg",
+//   "images/gallery3.jpg",
+//   "images/gallery4.jpg",
+//   "images/gallery5.jpg",
+//   "images/gallery6.jpg",
+// ];
+import { galleryImages } from "../data/gallery";
 export const Gallery: React.FC = () => {
   const [fullscreenImg, setFullscreenImg] = useState<string | null>(null);
 
