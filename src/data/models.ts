@@ -16,13 +16,13 @@ export const models: Model[] = [
   {
     id: 'bmw-x5-g05',
     brand: 'BMW',
-    img: '/images/gallery3.jpg',
+    img: 'images/gallery3.jpg',
     title: 'Выдвижные электрические пороги ATS на BMW X5 G05 (рестайлинг)',
     desc: 'Установка по штатным местам креплений — сохраняется заводская гарантия.',
     gallery: [
-      '/images/gallery3.jpg',
-      '/images/gallery2.jpg',
-      '/images/gallery1.jpg'
+      'images/gallery3.jpg',
+      'images/gallery2.jpg',
+      'images/gallery1.jpg'
     ],
     year: '2021-2024',
     price: 'от 120 000 ₽',
@@ -124,7 +124,7 @@ export const models: Model[] = [
     desc: 'Алгоритм работы как у оригинальных порогов.',
     gallery: [
       'images/cards/RoverL461.jfif',
-      '/images/cards/RoverL4612.jfif',
+      'images/cards/RoverL4612.jfif',
     ],
     year: '2021-2024',
     price: 'от 120 000 ₽',
