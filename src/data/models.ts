@@ -71,7 +71,7 @@ export const models: Model[] = [
   {
     id: 'mercedes-gls-x167',
     brand: 'Mercedes',
-    img: 'images/cards/Выдвижные электрические пороги ATS на Mercedes-Benz GLS X167.jfif',
+    img: 'images/cards/Выдвижные электрические пороги ATS на Mercedes-Benz G-class 4x4 G63 — копия.jfif',
     title: 'Электропороги ATS на Mercedes-Benz GLS X167',
     desc: 'Официальная гарантия, штатная установка, интеграция с электроникой.',
     gallery: [],
@@ -184,7 +184,7 @@ export const models: Model[] = [
   {
     id: 'toyota-land-cruiser-300',
     brand: 'Toyota',
-    img: 'images/cards/Система электропривода багажника на Toyota LC300',
+    img: 'images/cards/Система электропривода багажника на Toyota LC300.jfif',
     title: 'Электропороги ATS на Toyota Land Cruiser 300',
     desc: 'Совместимость с заводской электроникой, гарантия 2 года.',
     gallery: [],
