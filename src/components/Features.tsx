@@ -9,7 +9,7 @@ export const Features: React.FC = () => (
     <h2>Преимущества электропорогов ATS</h2>
     <div className="grid grid-4">
       <div className="card">
-        <img src="images/cards/Выдвижные электрические пороги ATS на Mercedes-Benz G-class 4x4 G63.jpg" alt="Надежность" />
+        <img src="images/f5.jfif" alt="Надежность" />
         <h3>Надежность</h3>
         <p>Пороги от компании ATS созданы специально для жестких условий климата в эксплуатации.  Безотказные электромоторы способны работать в арктических условиях</p>
       </div>
