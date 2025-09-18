@@ -71,7 +71,7 @@ export const models: Model[] = [
   {
     id: 'mercedes-gls-x167',
     brand: 'Mercedes',
-    img: 'images/cards/Выдвижные электрические пороги ATS на Mercedes-Benz G-class 4x4 G63 — копия.jfif',
+    img: 'images/cards/Выдвижные электрические пороги ATS на Mercedes-Benz GLS X167.jfif',
     title: 'Электропороги ATS на Mercedes-Benz GLS X167',
     desc: 'Официальная гарантия, штатная установка, интеграция с электроникой.',
     gallery: [],
@@ -82,7 +82,7 @@ export const models: Model[] = [
   {
     id: 'mercedes-g-class',
     brand: 'Mercedes',
-    img: 'images/cards/Выдвижные электрические пороги ATS на Mercedes-Benz G-class 4x4 G63.jfif',
+    img: 'images/cards/Выдвижные электрические пороги ATS на Mercedes-Benz G-class 4x4 G63 — копия.jfif',
     title: 'Электропороги ATS на Mercedes-Benz G-class',
     desc: 'Премиальная комплектация, надежность и долговечность.',
     gallery: [],
@@ -316,5 +316,5 @@ export const models: Model[] = [
   },
 
   // Other
-  
+
 ];
