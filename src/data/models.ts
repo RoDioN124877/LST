@@ -184,7 +184,7 @@ export const models: Model[] = [
   {
     id: 'toyota-land-cruiser-300',
     brand: 'Toyota',
-    img: 'images/cards/land Cruiser 30023.jfif',
+    img: 'images/cards/Система электропривода багажника на Toyota LC300',
     title: 'Электропороги ATS на Toyota Land Cruiser 300',
     desc: 'Совместимость с заводской электроникой, гарантия 2 года.',
     gallery: [],
