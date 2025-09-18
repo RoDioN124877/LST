@@ -6,8 +6,7 @@ const brands = [
   "all",
   "BMW",
   "Mercedes",
-  "Land Rover",
-  "Range Rover",
+  "Range Rover / Land Rover",
   "Toyota",
   "Kia",
   "Hyundai",
@@ -15,7 +14,6 @@ const brands = [
   "Rox",
   "Genesis",
   "Lixiang",
-  "Other",
 ];
 
 export const Models: React.FC = () => {

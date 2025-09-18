@@ -17,7 +17,7 @@ export const models: Model[] = [
     id: 'bmw-x5-g05',
     brand: 'BMW',
     img: 'images/gallery3.jpg',
-    title: 'Выдвижные электрические пороги ATS на BMW X5 G05 (рестайлинг)',
+    title: 'Доводчики двурей на BMW X5 G05',
     desc: 'Установка по штатным местам креплений — сохраняется заводская гарантия.',
     gallery: [
       'images/gallery3.jpg',
@@ -94,7 +94,7 @@ export const models: Model[] = [
   // Land Rover
   {
     id: 'defender',
-    brand: 'Land Rover',
+    brand: 'Range Rover / Land Rover',
     img: 'images/cards/land.jfif',
     title: 'Электропороги ATS под оригинал на Land Rover Defender',
     desc: 'Кодирование в InControl, датчик Холла для безопасной работы.',
@@ -105,7 +105,7 @@ export const models: Model[] = [
   },
   {
     id: 'defender-130',
-    brand: 'Land Rover',
+    brand: 'Range Rover / Land Rover',
     img: 'images/cards/land130.jfif',
     title: 'Электропороги ATS на Land Rover Defender 130 II',
     desc: 'С кодированием в InControl и датчиком Холла.',
@@ -118,9 +118,9 @@ export const models: Model[] = [
   // Range Rover
   {
     id: 'range-rover-l461',
-    brand: 'Range Rover',
+    brand: 'Range Rover / Land Rover',
     img: 'images/cards/RoverL461.jfif',
-    title: 'Электропороги для Range Rover Sport L461',
+    title: 'Оригинальные выдвижные электрические пороги на Range Rover Sport L461',
     desc: 'Алгоритм работы как у оригинальных порогов.',
     gallery: [
       'images/cards/RoverL461.jfif',
@@ -137,7 +137,7 @@ export const models: Model[] = [
   },
   {
     id: 'range-rover-l460',
-    brand: 'Range Rover',
+    brand: 'Range Rover / Land Rover',
     img: 'images/cards/RoverL460461.jfjf.jfif',
     title: 'Электропороги ATS на Range Rover L460/L461',
     desc: 'Алгоритм работы как у оригинала — задержка захода при закрытии двери.',
@@ -184,7 +184,7 @@ export const models: Model[] = [
   {
     id: 'toyota-land-cruiser-300',
     brand: 'Toyota',
-    img: 'images/cards/land Cruiser 300.jfif',
+    img: 'images/cards/land Cruiser 30023.jfif',
     title: 'Электропороги ATS на Toyota Land Cruiser 300',
     desc: 'Совместимость с заводской электроникой, гарантия 2 года.',
     gallery: [],
@@ -316,15 +316,5 @@ export const models: Model[] = [
   },
 
   // Other
-  {
-    id: 'other',
-    brand: 'Other',
-    img: 'images/cards/Смазочные.jfif',
-    title: 'Смазочные капсулы',
-    desc: 'Смазка не вымывается на мойке, долговечность механизмов.',
-    gallery: [],
-    year: '',
-    price: '',
-    features: []
-  }
+  
 ];
