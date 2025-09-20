@@ -21,16 +21,11 @@ export const models: Model[] = [
     desc: 'Установка по штатным местам креплений — сохраняется заводская гарантия.',
     gallery: [
       'images/gallery3.jpg',
-      'images/gallery2.jpg',
-      'images/gallery1.jpg'
     ],
     year: '2021-2024',
     price: 'от 120 000 ₽',
     features: [
-      'Штатная установка',
-      'Сохранение гарантии',
-      'Интеграция с электроникой',
-      'Гарантия 2 года'
+      "Выдвижные кронштейны электропорогов ATS с большим вылетом по отношению к кузову, что делает посадку в автомобиль и выход из салона максимально удобным, комфортным и лёгким. Складные механизмы выдвижных электрических порогов ATS имеют смазочные капсулы, т.е. смазка постоянно находится в кронштейне, не вымывается на автомойках, не выбивается пескоструем с дороги. Мы позаботились о защите подвижных кронштейнов - штифты с торцов закрыты пластиковыми заглушками, которые предотвращают попадание грязи, пыли, снега, воды внутрь механизма. Благодаря этому электропороги ATS продолжают работать при низких температурах зимой. Выдвижными подножками можно управлять с приложения на мобильном телефоне - через приложение электропороги можно отключить и открыть электропороги при закрытых дверях (функция доступ к люку крыши) Пороги выдерживают более 200 кг."
     ]
   },
   {
@@ -39,10 +34,65 @@ export const models: Model[] = [
     img: 'images/cards/x6.jfif',
     title: 'Электропороги ATS на BMW X6 G06 (рестайлинг)',
     desc: 'Плавное срабатывание и управление — совместимость с электроникой автомобиля.',
-    gallery: [],
+    gallery: ['images/cards/x6.jfif'],
+    year: '',
+    price: '',
+    features: ["Выдвижные кронштейны электропорогов ATS с большим вылетом по отношению к кузову, что делает посадку в автомобиль и выход из салона максимально удобным, комфортным и лёгким. Складные механизмы выдвижных электрических порогов ATS имеют смазочные капсулы, т.е. смазка постоянно находится в кронштейне, не вымывается на автомойках, не выбивается пескоструем с дороги. Мы позаботились о защите подвижных кронштейнов - штифты с торцов закрыты пластиковыми заглушками, которые предотвращают попадание грязи, пыли, снега, воды внутрь механизма. Благодаря этому электропороги ATS продолжают работать при низких температурах зимой. Выдвижными подножками можно управлять с приложения на мобильном телефоне - через приложение электропороги можно отключить и открыть электропороги при закрытых дверях (функция доступ к люку крыши) Пороги выдерживают более 200 кг."]
+  },
+  {
+    id: 'брызговики',
+    brand: 'BMW',
+    img: 'images/cards/Брызговики.jfif',
+    title: 'Брызговики BMW X7 G07/X6 G06/X5 G05',
+    desc: 'Плавное срабатывание и управление — совместимость с электроникой автомобиля.',
+    gallery: ['images/cards/Брызговики.jfif'],
     year: '',
     price: '',
     features: []
+  },
+  {
+    id: 'Хрустальнаяручка',
+    brand: 'BMW',
+    img: 'images/cards/Хрустальнаяручка.jfif',
+    title: 'Хрустальная ручка АКПП, кнопка старт-стоп, контролер шайба BMW комплект (M style/X style))',
+    desc: 'Плавное срабатывание и управление — совместимость с электроникой автомобиля.',
+    gallery: ['images/cards/Хрустальнаяручка.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'насадкиглушителя',
+    brand: 'BMW',
+    img: 'images/cards/насадкиглушителя.jfif',
+    title: 'Чёрные насадки глушителя BMW X5(G05) /X7(G07)',
+    desc: 'Плавное срабатывание и управление — совместимость с электроникой автомобиля.',
+    gallery: ['images/cards/насадкиглушителя.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'Решеткарадиатора',
+    brand: 'BMW',
+    img: 'images/cards/Решеткарадиатора.jfif',
+    title: 'Решетка радиатора для BMW X5/Х7 черная',
+    desc: 'Плавное срабатывание и управление — совместимость с электроникой автомобиля.',
+    gallery: ['images/cards/Решеткарадиатора.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'X5G05пороги',
+    brand: 'BMW',
+    img: 'images/cards/Выдвижные электрические пороги ATS на BMW X5 G05.jfif',
+    title: 'Выдвижные электрические пороги ATS на BMW X5 G05  ',
+    desc: 'Плавное срабатывание и управление — совместимость с электроникой автомобиля.',
+    gallery: ['images/cards/Выдвижные электрические пороги ATS на BMW X5 G05.jfif'],
+    year: '',
+    price: '',
+    features: ["Выдвижные кронштейны электропорогов ATS с большим вылетом по отношению к кузову, что делает посадку в автомобиль и выход из салона максимально удобным, комфортным и лёгким. Складные механизмы выдвижных электрических порогов ATS имеют смазочные капсулы, т.е. смазка постоянно находится в кронштейне, не вымывается на автомойках, не выбивается пескоструем с дороги. Мы позаботились о защите подвижных кронштейнов - штифты с торцов закрыты пластиковыми заглушками, которые предотвращают попадание грязи, пыли, снега, воды внутрь механизма. Благодаря этому электропороги ATS продолжают работать при низких температурах зимой. Выдвижными подножками можно управлять с приложения на мобильном телефоне - через приложение электропороги можно отключить и открыть электропороги при закрытых дверях (функция доступ к люку крыши) Пороги выдерживают более 200 кг."]
   },
   {
     id: 'bmw-x7-g07',
@@ -50,7 +100,7 @@ export const models: Model[] = [
     img: 'images/cards/x7.jfif',
     title: 'Электропороги ATS на BMW X7 G07',
     desc: 'Штатная установка, интеграция с электроникой, гарантия 2 года.',
-    gallery: [],
+    gallery: ['images/cards/x7.jfif'],
     year: '',
     price: '',
     features: []
@@ -63,7 +113,7 @@ export const models: Model[] = [
     img: 'images/cards/Выдвижные электропороги MAYBACH на Mercedes-Benz GLE W167.jfif',
     title: 'Электропороги MAYBACH на Mercedes-Benz GLE W167',
     desc: 'Надежные механизмы, защита от грязи и воды.',
-    gallery: [],
+    gallery: ['images/cards/Выдвижные электропороги MAYBACH на Mercedes-Benz GLE W167.jfif'],
     year: '',
     price: '',
     features: []
@@ -74,7 +124,7 @@ export const models: Model[] = [
     img: 'images/cards/Выдвижные электрические пороги ATS на Mercedes-Benz GLS X167.jfif',
     title: 'Электропороги ATS на Mercedes-Benz GLS X167',
     desc: 'Официальная гарантия, штатная установка, интеграция с электроникой.',
-    gallery: [],
+    gallery: ['images/cards/Выдвижные электрические пороги ATS на Mercedes-Benz GLS X167.jfif'],
     year: '',
     price: '',
     features: []
@@ -85,7 +135,7 @@ export const models: Model[] = [
     img: 'images/cards/Выдвижные электрические пороги ATS на Mercedes-Benz G-class 4x4 G63 — копия.jfif',
     title: 'Электропороги ATS на Mercedes-Benz G-class',
     desc: 'Премиальная комплектация, надежность и долговечность.',
-    gallery: [],
+    gallery: ['images/cards/Выдвижные электрические пороги ATS на Mercedes-Benz G-class 4x4 G63 — копия.jfif'],
     year: '',
     price: '',
     features: []
@@ -98,7 +148,7 @@ export const models: Model[] = [
     img: 'images/cards/land.jfif',
     title: 'Электропороги ATS под оригинал на Land Rover Defender',
     desc: 'Кодирование в InControl, датчик Холла для безопасной работы.',
-    gallery: [],
+    gallery: ['images/cards/land.jfif'],
     year: '',
     price: '',
     features: []
@@ -109,7 +159,7 @@ export const models: Model[] = [
     img: 'images/cards/land130.jfif',
     title: 'Электропороги ATS на Land Rover Defender 130 II',
     desc: 'С кодированием в InControl и датчиком Холла.',
-    gallery: [],
+    gallery: ['images/cards/land130.jfif'],
     year: '',
     price: '',
     features: []
@@ -141,7 +191,7 @@ export const models: Model[] = [
     img: 'images/cards/RoverL460461.jfjf.jfif',
     title: 'Электропороги ATS на Range Rover L460/L461',
     desc: 'Алгоритм работы как у оригинала — задержка захода при закрытии двери.',
-    gallery: [],
+    gallery: ['images/cards/RoverL460461.jfjf.jfif'],
     year: '',
     price: '',
     features: []
@@ -154,7 +204,7 @@ export const models: Model[] = [
     img: 'images/cards/Prad250.jfif',
     title: 'Электропороги ATS на Land Cruiser Prado 250',
     desc: 'Удобство в эксплуатации и надежность.',
-    gallery: [],
+    gallery: ['images/cards/Prad250.jfif'],
     year: '',
     price: '',
     features: []
@@ -165,7 +215,7 @@ export const models: Model[] = [
     img: 'images/cards/Toyota Hilux VIII.jfif',
     title: 'Электропороги ATS на Toyota Hilux VIII',
     desc: 'Удобство в эксплуатации и надежность.',
-    gallery: [],
+    gallery: ['images/cards/Toyota Hilux VIII.jfif'],
     year: '',
     price: '',
     features: []
@@ -176,7 +226,7 @@ export const models: Model[] = [
     img: 'images/cards/Toyota Highlander.jfif',
     title: 'Электропороги ATS на Toyota Highlander',
     desc: 'Удобство в эксплуатации и надежность.',
-    gallery: [],
+    gallery: ['images/cards/Toyota Highlander.jfif'],
     year: '',
     price: '',
     features: []
@@ -187,7 +237,7 @@ export const models: Model[] = [
     img: 'images/cards/Система электропривода багажника на Toyota LC300.jfif',
     title: 'Электропороги ATS на Toyota Land Cruiser 300',
     desc: 'Совместимость с заводской электроникой, гарантия 2 года.',
-    gallery: [],
+    gallery: ['images/cards/Система электропривода багажника на Toyota LC300.jfif'],
     year: '',
     price: '',
     features: []
@@ -200,7 +250,7 @@ export const models: Model[] = [
     img: 'images/cards/Система электропривода багажника на Kia Sportage.jfif',
     title: 'Система электропривода багажника на Kia Sportage',
     desc: 'Современные технологии и адаптация под авто.',
-    gallery: [],
+    gallery: ['images/cards/Система электропривода багажника на Kia Sportage.jfif'],
     year: '',
     price: '',
     features: []
@@ -213,7 +263,7 @@ export const models: Model[] = [
     img: 'images/cards/Выдвижные электропороги ATS на Hyundai Staria.jfif',
     title: 'Электропороги ATS на Hyundai Staria',
     desc: 'Штатная установка, гарантия 2 года.',
-    gallery: [],
+    gallery: ['images/cards/Выдвижные электропороги ATS на Hyundai Staria.jfif'],
     year: '',
     price: '',
     features: []
@@ -224,7 +274,7 @@ export const models: Model[] = [
     img: 'images/cards/Выдвижные электрические пороги ATS на Hyundai Santa Fe V.jfif',
     title: 'Электропороги ATS на Hyundai Santa Fe V',
     desc: 'Штатная установка, гарантия 2 года.',
-    gallery: [],
+    gallery: ['images/cards/Выдвижные электрические пороги ATS на Hyundai Santa Fe V.jfif'],
     year: '',
     price: '',
     features: []
