@@ -14,9 +14,9 @@ export const Hero: React.FC = () => (
           электрических порогов для автомобилей. Так же у нас имеются различные
           дополнительные оборудования и аксессуары для вашего автомобиля!
         </p>
-        <div className="actions">
+        <div className="actions ">
           <a
-            className="btn btn-ghost"
+            className="btn btn-primary"
             href="https://wa.me/77018148080"
             target="_blank"
             rel="noreferrer"
