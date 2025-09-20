@@ -15,10 +15,7 @@ export const Hero: React.FC = () => (
           дополнительные оборудования и аксессуары для вашего автомобиля!
         </p>
         <div className="actions">
-          <a className="btn btn-primary" href="">
-            Заказать замер
-          </a>
-          <a className="btn btn-ghost" href="">
+          <a className="btn btn-ghost" href="https://wa.me/77018148080">
             Написать нам
           </a>
         </div>

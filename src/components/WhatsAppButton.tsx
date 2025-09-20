@@ -2,7 +2,7 @@ import React from 'react';
 
 export const WhatsAppButton: React.FC = () => (
   <a
-    href="https://wa.me/7XXXXXXXXXX"
+    href="https://wa.me/77018148080"
     className="whatsapp"
     aria-label="Написать в WhatsApp"
     target="_blank"

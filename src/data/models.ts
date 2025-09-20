@@ -42,7 +42,7 @@ export const models: Model[] = [
   {
     id: 'брызговики',
     brand: 'BMW',
-    img: 'images/cards/Брызговики.jfif',
+    img: 'images/cards/брызговики.jfif',
     title: 'Брызговики BMW X7 G07/X6 G06/X5 G05',
     desc: 'Плавное срабатывание и управление — совместимость с электроникой автомобиля.',
     gallery: ['images/cards/Брызговики.jfif'],

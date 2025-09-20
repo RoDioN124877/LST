@@ -14,10 +14,7 @@ export const ModelModal: React.FC<ModelModalProps> = ({ model, onClose }) => {
 
   return ReactDOM.createPortal(
     <div className="modal-overlay" onClick={onClose}>
-      <div
-        className="modal-window"
-        onClick={(e) => e.stopPropagation()}
-      >
+      <div className="modal-window" onClick={(e) => e.stopPropagation()}>
         <button className="modal-close" onClick={onClose} aria-label="Закрыть">
           ×
         </button>
@@ -65,7 +62,10 @@ export const ModelModal: React.FC<ModelModalProps> = ({ model, onClose }) => {
           </ul>
         )}
 
-        <a href="#contacts" className="btn btn-primary modal-btn">
+        <a
+          href="https://wa.me/77018148080"
+          className="btn btn-primary modal-btn"
+        >
           Оставить заявку
         </a>
       </div>
