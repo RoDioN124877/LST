@@ -15,7 +15,12 @@ export const Hero: React.FC = () => (
           дополнительные оборудования и аксессуары для вашего автомобиля!
         </p>
         <div className="actions">
-          <a className="btn btn-ghost" href="https://wa.me/77018148080">
+          <a
+            className="btn btn-ghost"
+            href="https://wa.me/77018148080"
+            target="_blank"
+            rel="noreferrer"
+          >
             Написать нам
           </a>
         </div>

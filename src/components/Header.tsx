@@ -33,6 +33,8 @@ export const Header: React.FC = () => {
             href="https://wa.me/77018148080"
             className="btn btn-primary"
             onClick={closeMenu}
+            target="_blank"
+            rel="noreferrer"
           >
             Связаться
           </a>
