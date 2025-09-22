@@ -45,7 +45,7 @@ export const models: Model[] = [
     img: 'images/cards/брызговики.jfif',
     title: 'Брызговики BMW X7 G07/X6 G06/X5 G05',
     desc: 'Плавное срабатывание и управление — совместимость с электроникой автомобиля.',
-    gallery: ['images/cards/Брызговики.jfif'],
+    gallery: ['images/cards/брызговики.jfif'],
     year: '',
     price: '',
     features: []
@@ -164,6 +164,61 @@ export const models: Model[] = [
     price: '',
     features: []
   },
+  {
+    id: 'Лестницаdefender-130',
+    brand: 'Range Rover / Land Rover',
+    img: 'images/cards/ЛестницаLand.jfif',
+    title: 'Лестница на автомобиль Land Rover Defender',
+    desc: 'С кодированием в InControl и датчиком Холла.',
+    gallery: ['images/cards/ЛестницаLand.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'багажныйdefender-130',
+    brand: 'Range Rover / Land Rover',
+    img: 'images/cards/багажныйLand.jfif',
+    title: 'Боковой багажный бокс на автомобиль Land Rover Defender',
+    desc: 'С кодированием в InControl и датчиком Холла.',
+    gallery: ['images/cards/ЛестницаLand.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'КрышкаLand-130',
+    brand: 'Range Rover / Land Rover',
+    img: 'images/cards/КрышкаLand.jfif',
+    title: 'Крышка запасного колеса на автомобиль Land Rover Defender',
+    desc: 'С кодированием в InControl и датчиком Холла.',
+    gallery: ['images/cards/КрышкаLand.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'БрызговикиLand-130',
+    brand: 'Range Rover / Land Rover',
+    img: 'images/cards/БрызговикиLand.jfif',
+    title: 'Брызговики на автомобиль Land Rover Defender 2020 (бол/мал)',
+    desc: 'С кодированием в InControl и датчиком Холла.',
+    gallery: ['images/cards/БрызговикиLand.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'LandVelar',
+    brand: 'Range Rover / Land Rover',
+    img: 'images/cards/LandVelar.jfif',
+    title: 'Выдвижные электропороги ATS на Land Rover Range Rover Velar',
+    desc: 'Установку выполняем по оригинальным заводским местам.',
+    gallery: ['images/cards/LandVelar.jfif'],
+    year: '',
+    price: '',
+    features: ["Установку выполняем по оригинальным заводским местам. Прописываем наши пороги в InControl. Выдвижные подножки делают заход в атомобиль очень удобным, так же удобнее будет выходить из автомобиля. Выдерживают до 200 кг, одновременно на них может вставать и водитель, и пассажир. Пороги оборудованы датчиком Холла,т.е пороги автоматически останавливаются если во что-то упираются или если что-то мешает им закрыться"]
+  },
 
   // Range Rover
   {
@@ -196,6 +251,28 @@ export const models: Model[] = [
     price: '',
     features: []
   },
+  {
+    id: 'RoverVogue',
+    brand: 'Range Rover / Land Rover',
+    img: 'images/cards/RoverVogue.jfif',
+    title: 'Выдвижные электропороги ATS на Range Rover Vogue',
+    desc: 'Установку выполняем по оригинальным заводским местам.',
+    gallery: ['images/cards/RoverVogue.jfif'],
+    year: '',
+    price: '',
+    features: ["Установку выполняем по оригинальным заводским местам. Прописываем наши пороги в InControl. Выдвижные подножки делают заход в атомобиль очень удобным, так же удобнее будет выходить из автомобиля. Выдерживают до 200 кг, одновременно на них может вставать и водитель, и пассажир. Пороги оборудованы датчиком Холла,т.е пороги автоматически останавливаются если во что-то упираются или если что-то мешает им закрыться"]
+  },
+  {
+    id: 'Обвесrange-rover-l460',
+    brand: 'Range Rover / Land Rover',
+    img: 'images/cards/ОбвесRover.jfif',
+    title: 'Обвес на Range Rover L405 2017 - 2022 г. под Range Rover L460',
+    desc: 'Алгоритм работы как у оригинала — задержка захода при закрытии двери.',
+    gallery: ['images/cards/ОбвесRover.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
 
   // Toyota
   {
@@ -205,6 +282,17 @@ export const models: Model[] = [
     title: 'Электропороги ATS на Land Cruiser Prado 250',
     desc: 'Удобство в эксплуатации и надежность.',
     gallery: ['images/cards/Prad250.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'ДоводчикиToyota',
+    brand: 'Toyota',
+    img: 'images/cards/ДоводчикиToyota.jfif',
+    title: 'Доводчики дверей на Toyota',
+    desc: 'Доводчики дверей на Toyota LC300, Prada 150,200, 250, camry 75  и многие модели Toyota',
+    gallery: ['images/cards/ДоводчикиToyota.jfif'],
     year: '',
     price: '',
     features: []
