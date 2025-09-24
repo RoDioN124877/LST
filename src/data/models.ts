@@ -287,7 +287,7 @@ export const models: Model[] = [
     features: []
   },
   {
-    id: 'toyota-prado-250',
+    id: 'toyota-Cruiser-300',
     brand: 'Toyota',
     img: 'images/cards/toyota232323233.jfif',
     title: 'Выдвижные электрические пороги ATS на Toyota Land Cruiser 300',
