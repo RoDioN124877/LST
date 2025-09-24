@@ -287,6 +287,17 @@ export const models: Model[] = [
     features: []
   },
   {
+    id: 'toyota-prado-250',
+    brand: 'Toyota',
+    img: 'images/cards/toyota232323233.jfif',
+    title: 'Выдвижные электрические пороги ATS на Toyota Land Cruiser 300',
+    desc: 'Удобство в эксплуатации и надежность.',
+    gallery: ['images/cards/toyota232323233.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
     id: 'ДоводчикиToyota',
     brand: 'Toyota',
     img: 'images/cards/ДоводчикиToyota.jfif',
