@@ -18,6 +18,8 @@
   font-weight: 800;
   font-size: 20px;
   letter-spacing: 1px;
+  color: var(--white);
+  text-decoration: none;
 }
 .logo .dot {
   color: var(--accent);

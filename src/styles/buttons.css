@@ -23,3 +23,8 @@
   border: 1px solid var(--accent);
   background: rgba(193, 0, 31, 0.08);
 }
+
+html,
+body {
+  scroll-behavior: smooth;
+}

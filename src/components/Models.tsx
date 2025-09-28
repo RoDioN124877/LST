@@ -89,7 +89,12 @@ const NotFoundModel: React.FC = () => (
   <div className="not-found-model grid grid-2">
     <div>
       <h3>НЕ НАШЛИ СВОЮ МОДЕЛЬ?</h3>
-      <a href="#contacts" className="btn btn-ghost">
+      <a
+        href="https://wa.me/77018148080"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-ghost"
+      >
         Помощь специалиста
       </a>
     </div>
@@ -99,5 +104,3 @@ const NotFoundModel: React.FC = () => (
     </div>
   </div>
 );
-
-

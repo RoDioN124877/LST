@@ -1,7 +1,7 @@
 import React from "react";
 
 export const Hero: React.FC = () => (
-  <section className="hero" id="home">
+  <section className="hero" id="home"  data-aos="fade-up">
     <div className="container hero-inner">
       <div className="hero-text">
         <h1>

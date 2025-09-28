@@ -6,9 +6,9 @@ export const Header: React.FC = () => {
   return (
     <header className="site-header">
       <div className="container header-inner">
-        <div className="logo">
+        <a className="logo" href="#home" onClick={closeMenu}>
           LST<span className="dot">.</span>
-        </div>
+        </a>
         <nav className="nav">
           <button
             className="nav-close"
