@@ -6,14 +6,20 @@ const brands = [
   "all",
   "BMW",
   "Mercedes",
+  "Audi",
+  "Cadillac",
   "Range Rover / Land Rover",
   "Toyota",
   "Kia",
   "Hyundai",
+  "Volkswagen",
   "Lexus",
   "Rox",
+  "Infiniti",
   "Genesis",
   "Lixiang",
+  "Jetur",
+  "Universal",
 ];
 
 export const Models: React.FC = () => {

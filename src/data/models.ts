@@ -105,6 +105,17 @@ export const models: Model[] = [
     price: '',
     features: []
   },
+  {
+    id: 'x6F16',
+    brand: 'BMW',
+    img: 'images/cards/x6F16.jfif',
+    title: 'Выдвижные электрические пороги ATS на BMW X6 F16',
+    desc: 'Штатная установка, интеграция с электроникой, гарантия 2 года.',
+    gallery: ['images/cards/x6F16.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
 
   // Mercedes
   {
@@ -130,12 +141,147 @@ export const models: Model[] = [
     features: []
   },
   {
+    id: 'Mercedes-BenzGLSII',
+    brand: 'Mercedes',
+    img: 'images/cards/Mercedes-BenzGLSII.jfif',
+    title: 'Выдвижные электропороги MAYBACH на Mercedes-Benz GLS II (X167)',
+    desc: 'Официальная гарантия, штатная установка, интеграция с электроникой.',
+    gallery: ['images/cards/Mercedes-BenzGLSII.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'V-class(Short)',
+    brand: 'Mercedes',
+    img: 'images/cards/V-class(Short).jfif',
+    title: 'Выдвижные электрические пороги ATS на Mercedes-Benz V-class (Short)',
+    desc: 'Официальная гарантия, штатная установка, интеграция с электроникой.',
+    gallery: ['images/cards/V-class(Short).jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'V-classLongExtraLong',
+    brand: 'Mercedes',
+    img: 'images/cards/V-classLongExtraLong.jfif',
+    title: 'Выдвижные электрические пороги ATS на Mercedes-Benz V-class Long / Extra Long',
+    desc: 'Официальная гарантия, штатная установка, интеграция с электроникой.',
+    gallery: ['images/cards/V-classLongExtraLong.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'BenzW463G-class',
+    brand: 'Mercedes',
+    img: 'images/cards/BenzW463G-class.jfif',
+    title: 'Бесключевой доступ Mercedes Benz W463 G-class',
+    desc: 'Официальная гарантия, штатная установка, интеграция с электроникой.',
+    gallery: ['images/cards/BenzW463G-class.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
     id: 'mercedes-g-class',
     brand: 'Mercedes',
     img: 'images/cards/Выдвижные электрические пороги ATS на Mercedes-Benz G-class 4x4 G63 — копия.jfif',
     title: 'Электропороги ATS на Mercedes-Benz G-class',
     desc: 'Премиальная комплектация, надежность и долговечность.',
     gallery: ['images/cards/Выдвижные электрические пороги ATS на Mercedes-Benz G-class 4x4 G63 — копия.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'mercedes-g-class',
+    brand: 'Mercedes',
+    img: 'images/cards/ддм.jfif',
+    title: 'Доводчиков дверей на Мерседес Mercedes G class G63, G500, AMG (Gelandewagen) (2021+)',
+    desc: 'Премиальная комплектация, надежность и долговечность.',
+    gallery: ['images/cards/ддм.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'Mercedes-BenzG-class4х4',
+    brand: 'Mercedes',
+    img: 'images/cards/Mercedes-BenzG-class4х4.jfif',
+    title: 'Выдвижные электропороги ATS на Mercedes-Benz G-class 4х4',
+    desc: 'Премиальная комплектация, надежность и долговечность.',
+    gallery: ['images/cards/Mercedes-BenzG-class4х4.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'свMercedesV-class',
+    brand: 'Mercedes',
+    img: 'images/cards/свMercedesV-class.jfif',
+    title: 'Накладки на пороги с подсветкой и проекцией на Mercedes V-class',
+    desc: 'Премиальная комплектация, надежность и долговечность.',
+    gallery: ['images/cards/свMercedesV-class.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  // Audi
+  {
+    id: 'audi-q7-4m',
+    brand: 'Audi',
+    img: 'images/cards/AudiQ7.jfif',
+    title: 'Выдвижные электрические пороги ATS на Audi Q7 2019 - 2025 г.в',
+    desc: 'Штатная установка, интеграция с электроникой, гарантия 2 года.',
+    gallery: ['images/cards/AudiQ7.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'audi-Q8-4m',
+    brand: 'Audi',
+    img: 'images/cards/AudiQ8.jfif',
+    title: 'Выдвижные электрические пороги ATS на Audi Q8',
+    desc: 'Штатная установка, интеграция с электроникой, гарантия 2 года.',
+    gallery: ['images/cards/AudiQ8.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+
+  //Cadillac
+  {
+    id: 'cadillac-escalade-v',
+    brand: 'Cadillac',
+    img: 'images/cards/CadillacEscaladeV.jfif',
+    title: 'Выдвижные электрические пороги ATS на Cadillac Escalade V',
+    desc: 'Штатная установка, интеграция с электроникой, гарантия 2 года.',
+    gallery: ['images/cards/CadillacEscaladeV.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'cadillac-escalade-vlong',
+    brand: 'Cadillac',
+    img: 'images/cards/CadillacEscaladeVLong.jfif',
+    title: 'Выдвижные электропороги ATS на Cadillac Escalade V Long',
+    desc: 'Штатная установка, интеграция с электроникой, гарантия 2 года.',
+    gallery: ['images/cards/CadillacEscaladeVLong.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'cadillac-escalade-v2',
+    brand: 'Cadillac',
+    img: 'images/cards/CadillacEscaladeVL2.jfif',
+    title: 'Доводчики дверей на Cadillac Escalade (2022+г.в)',
+    desc: 'Штатная установка, интеграция с электроникой, гарантия 2 года.',
+    gallery: ['images/cards/CadillacEscaladeV2.jfif'],
     year: '',
     price: '',
     features: []
@@ -209,6 +355,17 @@ export const models: Model[] = [
     features: []
   },
   {
+    id: 'LandRoverDiscoveryV-130',
+    brand: 'Range Rover / Land Rover',
+    img: 'images/cards/LandRoverDiscoveryV.jfif',
+    title: 'Выдвижные электропороги ATS на Land Rover Discovery V',
+    desc: 'С кодированием в InControl и датчиком Холла.',
+    gallery: ['images/cards/LandRoverDiscoveryV.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
     id: 'LandVelar',
     brand: 'Range Rover / Land Rover',
     img: 'images/cards/LandVelar.jfif',
@@ -252,6 +409,28 @@ export const models: Model[] = [
     features: []
   },
   {
+    id: 'двериRangeRoverVogue',
+    brand: 'Range Rover / Land Rover',
+    img: 'images/cards/двериRangeRoverVogue.jfif',
+    title: 'Ручки внешние для двери Range Rover Vogue 2013-2020 (белые)',
+    desc: 'Алгоритм работы как у оригинала — задержка захода при закрытии двери.',
+    gallery: ['images/cards/двериRangeRoverVogue.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'двериRangeRoverVogueчерные',
+    brand: 'Range Rover / Land Rover',
+    img: 'images/cards/двериRangeRoverVogueчерные.jfif',
+    title: 'Ручки внешние для двери Range Rover Vogue 2013-2020 (черные)',
+    desc: 'Алгоритм работы как у оригинала — задержка захода при закрытии двери.',
+    gallery: ['images/cards/двериRangeRoverVogueчерные.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
     id: 'RoverVogue',
     brand: 'Range Rover / Land Rover',
     img: 'images/cards/RoverVogue.jfif',
@@ -273,7 +452,52 @@ export const models: Model[] = [
     price: '',
     features: []
   },
+  //Tank 
+  {
 
+    id: 'tank-300',
+    brand: 'Tank',
+    img: 'images/cards/Tank300.jfif',
+    title: 'Выдвижные электропороги ATS на Tank 300',
+    desc: 'Штатная установка, интеграция с электроникой, гарантия 2 года.',
+    gallery: ['images/cards/Tank300.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'сtank-300',
+    brand: 'Tank',
+    img: 'images/cards/сTank300.jfif',
+    title: 'Система электропривода багажника на TANK 300',
+    desc: 'Штатная установка, интеграция с электроникой, гарантия 2 года.',
+    gallery: ['images/cards/сTank300.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'сtank-500',
+    brand: 'Tank',
+    img: 'images/cards/Tank500.jfif',
+    title: 'Система электропривода багажника на TANK 500',
+    desc: 'Штатная установка, интеграция с электроникой, гарантия 2 года.',
+    gallery: ['images/cards/Tank500.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'сtank-Tank35700',
+    brand: 'Tank',
+    img: 'images/cards/Tank35700.jfif',
+    title: 'Доводчики дверей на модельный ряд TANK 300/500/700',
+    desc: 'Штатная установка, интеграция с электроникой, гарантия 2 года.',
+    gallery: ['images/cards/Tank35700.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
   // Toyota
   {
     id: 'toyota-prado-250',
@@ -304,6 +528,17 @@ export const models: Model[] = [
     title: 'Доводчики дверей на Toyota',
     desc: 'Доводчики дверей на Toyota LC300, Prada 150,200, 250, camry 75  и многие модели Toyota',
     gallery: ['images/cards/ДоводчикиToyota.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'ToyotaCamry2',
+    brand: 'Toyota',
+    img: 'images/cards/ToyotaCamry2.jfif',
+    title: 'Система электропривода багажника на Toyota Camry (2021+г.в)',
+    desc: '',
+    gallery: ['images/cards/ToyotaCamry2.jfif'],
     year: '',
     price: '',
     features: []
@@ -354,6 +589,28 @@ export const models: Model[] = [
     price: '',
     features: []
   },
+  {
+    id: 'KiaCarnivalIV',
+    brand: 'Kia',
+    img: 'images/cards/KiaCarnivalIV.jfif',
+    title: 'Выдвижные электрические пороги ATS на Kia Carnival IV',
+    desc: 'Современные технологии и адаптация под авто.',
+    gallery: ['images/cards/KiaCarnivalIV.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'KiaCarnivalIV',
+    brand: 'Kia',
+    img: 'images/cards/KiaSorento.jfif',
+    title: 'Выдвижные электрические пороги ATS на Kia Sorento',
+    desc: 'Современные технологии и адаптация под авто.',
+    gallery: ['images/cards/KiaSorento.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
 
   // Hyundai
   {
@@ -363,6 +620,39 @@ export const models: Model[] = [
     title: 'Электропороги ATS на Hyundai Staria',
     desc: 'Штатная установка, гарантия 2 года.',
     gallery: ['images/cards/Выдвижные электропороги ATS на Hyundai Staria.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'HyundaiPalisade',
+    brand: 'Hyundai',
+    img: 'images/cards/HyundaiPalisade.jfif',
+    title: 'Система электропривода багажника на Hyundai Palisade (2022+г.в)',
+    desc: 'Штатная установка, гарантия 2 года.',
+    gallery: ['images/cards/HyundaiPalisade.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'HyundaiPalisade2',
+    brand: 'Hyundai',
+    img: 'images/cards/HyundaiPalisade2.jfif',
+    title: 'Выдвижные электрические пороги ATS на Hyundai Palisade (2022 +г.в)',
+    desc: 'Штатная установка, гарантия 2 года.',
+    gallery: ['images/cards/HyundaiPalisade2.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'HyundaiPalisade25',
+    brand: 'Hyundai',
+    img: 'images/cards/HyundaiPalisade25.jfif',
+    title: 'Выдвижные электрические пороги ATS на  НОВЫЙ Hyundai Palisade (2025г.в)',
+    desc: 'Штатная установка, гарантия 2 года.',
+    gallery: ['images/cards/HyundaiPalisade25.jfif'],
     year: '',
     price: '',
     features: []
@@ -400,6 +690,52 @@ export const models: Model[] = [
     price: '',
     features: []
   },
+  //Volkswagen
+
+  {
+    id: 'volkswagen-Multivan',
+    brand: 'Volkswagen',
+    img: 'images/cards/VolkswagenMultivan.jfif',
+    title: 'Брызговики для автомобиля Volkswagen Multivan T5, T6, T6.1',
+    desc: 'Штатная установка, интеграция с электроникой, гарантия 2 года.',
+    gallery: ['images/cards/VolkswagenMultivan.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'volkswagen-Multivan6',
+    brand: 'Volkswagen',
+    img: 'images/cards/VolkswagenMultivan6.jfif',
+    title: 'Накладки на пороги Volkswagen Multivan T6',
+    desc: 'Штатная установка, интеграция с электроникой, гарантия 2 года.',
+    gallery: ['images/cards/VolkswagenMultivan6.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'volkswagen-Teramont',
+    brand: 'Volkswagen',
+    img: 'images/cards/VolkswagenTeramont.jfif',
+    title: 'Выдвижные электрические пороги ATS на Volkswagen Teramont',
+    desc: 'Штатная установка, интеграция с электроникой, гарантия 2 года.',
+    gallery: ['images/cards/VolkswagenTeramont.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'volkswagen-Teramont2',
+    brand: 'Volkswagen',
+    img: 'images/cards/VolkswagenTeramont2.jfif',
+    title: 'Доводчики дверей для Volkswagen Teramont (2022+г.в)',
+    desc: 'Штатная установка, интеграция с электроникой, гарантия 2 года.',
+    gallery: ['images/cards/VolkswagenTeramont2.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
 
   // Lexus
   {
@@ -407,6 +743,28 @@ export const models: Model[] = [
     brand: 'Lexus',
     img: 'images/cards/Выдвижные электрические пороги ATS на Lexus LX500.jfif',
     title: 'Электропороги ATS на Lexus LX500',
+    desc: 'Штатная интеграция, надежность, гарантия.',
+    gallery: [],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'lexus-LexusLX600',
+    brand: 'Lexus',
+    img: 'images/cards/LexusLX600.jfif',
+    title: 'Выдвижные электрические пороги ATS на Lexus LX600',
+    desc: 'Штатная интеграция, надежность, гарантия.',
+    gallery: [],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'LexusRXIV',
+    brand: 'Lexus',
+    img: 'images/cards/LexusRXIV.jfif',
+    title: 'Выдвижные электрические пороги ATS на Lexus RX IV',
     desc: 'Штатная интеграция, надежность, гарантия.',
     gallery: [],
     year: '',
@@ -426,6 +784,40 @@ export const models: Model[] = [
     price: '',
     features: []
   },
+  {
+    id: 'rox-Pe01',
+    brand: 'Rox',
+    img: 'images/cards/ROXPolestone01.jfif',
+    title: 'Выдвижные электрические пороги ATS на ROX Polestone 01',
+    desc: 'Установка на любые автомобили, индивидуальные решения.',
+    gallery: [],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'rox-Po01',
+    brand: 'Rox',
+    img: 'images/cards/Polarstone01.jfif',
+    title: 'Доводчики для дверей для Rox Polarstone 01',
+    desc: 'Установка на любые автомобили, индивидуальные решения.',
+    gallery: [],
+    year: '',
+    price: '',
+    features: []
+  },
+  //infiniti
+  {
+    id: 'Infiniti',
+    brand: 'Infiniti',
+    img: 'images/cards/Infiniti.jfif',
+    title: 'Доводчики дверей на Infiniti Qx80',
+    desc: 'Установка на любые автомобили, индивидуальные решения.',
+    gallery: [],
+    year: '',
+    price: '',
+    features: []
+  },
 
   // Genesis
   {
@@ -433,6 +825,17 @@ export const models: Model[] = [
     brand: 'Genesis',
     img: 'images/cards/Выдвижные электрические пороги ATS на Genesis GV80.jfif',
     title: 'Электропороги для Genesis GV80',
+    desc: 'Совместимость с электроникой, гарантия 2 года.',
+    gallery: [],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'дgenesis-gv80',
+    brand: 'Genesis',
+    img: 'images/cards/дверейGenesisGv80.jfif',
+    title: 'Доводчики дверей Genesis Gv80',
     desc: 'Совместимость с электроникой, гарантия 2 года.',
     gallery: [],
     year: '',
@@ -463,7 +866,141 @@ export const models: Model[] = [
     price: '',
     features: []
   },
+  {
+    id: 'lixiang-l679',
+    brand: 'Lixiang',
+    img: 'images/cards/(Li Auto)L670.jfif',
+    title: 'Доводчики дверей на модельный ряд Lixiang L6/ L7/L9',
+    desc: 'Максимальный комфорт и надежность.',
+    gallery: [],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'зlixiang-l679',
+    brand: 'Lixiang',
+    img: 'images/cards/з(Li Auto)L670.jfif',
+    title: 'Защита днища Lixiang L6 /L7 L8/ L9 (Ккоплект) (сталь)',
+    desc: 'Максимальный комфорт и надежность.',
+    gallery: [],
+    year: '',
+    price: '',
+    features: []
+  },
 
-  // Other
+  //Jetur
+  {
+    id: 'jetur-T2',
+    brand: 'Jetur',
+    img: 'images/cards/JeturT2.jfif',
+    title: 'Доводчики дверей Jetour T2',
+    desc: 'Штатная установка, гарантия 2 года.',
+    gallery: [],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'дjetur-T2',
+    brand: 'Jetur',
+    img: 'images/cards/дJeturT2.jfif',
+    title: 'Электропривод Задней Двери Jetour T2',
+    desc: 'Штатная установка, гарантия 2 года.',
+    gallery: [],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'эjetur-T2',
+    brand: 'Jetur',
+    img: 'images/cards/эJeturT2.jfif',
+    title: 'Выдвижные электрические пороги ATS на Jetour T2',
+    desc: 'Штатная установка, гарантия 2 года.',
+    gallery: [],
+    year: '',
+    price: '',
+    features: []
+  },
 
+  // Universal
+  {
+    id: 'DVR',
+    brand: 'Universal',
+    img: 'images/cards/DVR.jfif',
+    title: 'Видеорегистраторы стационарной DVR-B.',
+    desc: 'Автоматическое  включение/выключение.',
+    gallery: ['images/cards/DVR.jfif'],
+    year: '',
+    price: '',
+    features: ["Автоматическое  включение/выключение.Элементы питания скрыты за обшивкой салона автомобиля и не занимают гнездо прикуривателя.Стационарная установка позволяет оставлять устройство в салоне автомобиля без риска хищения.Видеорегистратор выполнен в виде штатного устройства.При установке на ветровое стекло используется декоративная пленка, маскирующая устройство снаружи.DVR - B может быть использован в качестве элемента охранного комплекса автомобиля.Циклическая запись(Когда на SD карте заканчивается место, видеорегистратор автоматически перезаписывает видеофайлы начиная с устаревших)Бесшовная запись(Видеорегистратор постоянно записывает видеоролики без пауз и задержек между ними)Напряжение питания: 9 – 16 В"
+      , "Карта памяти: SD от 4 до 128 гб (в комплекте карта памяти SD 16 гб)",
+      "Формат видеофайлов: mov",
+      "Разрешение видео: 1920х1080 (Full HD)30 кадров/сек",
+      "Угол обзора: 123°",
+      "Линза: F/2,8",
+      "Макс. разрешение фото: 4000х2250, 9 Мп",
+      "Камера: OmniVision CMOS Low-light Full HD",
+      "G-сенсор: Встроенный, трехосевой",
+      "Micro USB-разъем: ДА | Индикатор состояния устройства:ДА"]
+  },
+  {
+    id: 'слепых',
+    brand: 'Universal',
+    img: 'images/cards/слепых.jfif',
+    title: 'Система контроля слепых зон.',
+    desc: 'Автоматическое  включение/выключение.',
+    gallery: ['images/cards/слепых.jfif'],
+    year: '',
+    price: '',
+    features: ["В системе AVILINE SmartASSIST используются  радары миллиметрового диапазона 24ГГц.  Радары не портят внешний вид автомобиля, так как  устанавливаются непосредственно на кузов автомобиля за задним бампером. Зона сканирования радаров  составляет 20 метров от заднего бампера назад и 3,5 метра от боковых стоек автомобиля вправо и влево соответственно. SmartASSIST - помощник при перестроении.",
+
+      "Система активируется  при собственной скорости автомобиля выше 20 км/ч, и выключается при скорости менее 20 км/",
+      "Интеллектуальная обработка сигнала позволяет исключить ложные срабатывания на тихоходы и стационарные объекты (деревья, столбы и т.д.). Система сообщает об автомобилях, скорость которых выше 20 км/ч, двигающихся в попутном направлении в соседних полосах.",
+      "SmartASSIST оповещает водителя о приближении автомобиля включением соответствующего светодиодного индикатора. Если водитель игнорирует свечение индикатора  и включает  указатель  поворота,  система активирует звуковое  предупреждение**. ",
+      "Система SmartASSIST  рекомендована для установки на легковые автомобили.",
+      "*- Система осуществляет контроль  слепых зон, образующихся  в ходе перестроения в соседнюю полосу  (зона, не попадающая в поле зрения боковых зеркал и зеркало заднего вида).",
+      "** - Звуковое предупреждение может быть выключено в процессе установки оборудования.",
+      "Комплектация",
+      "- Радар системы контроля слепых зон -2шт.",
+      "- Индикатор -2 шт.",
+      "- Звуковой модуль- 1 шт.",
+      "- Жгут подключения-1шт.",
+      "- Набор крепежа -1шт.",
+      "- Инструкция по эксплуатации-1 экз."]
+  },
+  {
+    id: 'ск',
+    brand: 'Universal',
+    img: 'images/cards/ск.jfif',
+    title: 'Интерактивный смарт ключ (универсальный)',
+    desc: 'Автоматическое  включение/выключение.',
+    gallery: ['images/cards/ск.jfif'],
+    year: '',
+    price: '',
+    features: []
+  },
+  {
+    id: 'заднего',
+    brand: 'Universal',
+    img: 'images/cards/заднего.jfif',
+    title: 'Камера заднего вида',
+    desc: 'Автоматическое  включение/выключение.',
+    gallery: ['images/cards/заднего.jfif'],
+    year: '',
+    price: '',
+    features: ["Универсальная цветная камера - обеспечивает визуальное информирование водителя об обстановке позади автомобиля во время маневрирования. Благодаря наличию режима питания от 6 вольт, параметрам видеосигнала и универсальному способу крепления, камеру возможно установить на автомобиль оснащённый штатным монитором*. При этом нет необходимости использовать дополнительные устройства согласования. При отсутствии штатного монитора, камеру возможно подключить к дополнительному монитору. Функция зеркального отображения картинки обеспечивает расположение объектов на мониторе так, как они располагаются в реальности. Функция отображения парковочных линии помогает скорректировать траекторию движения автомобиля, учитывая его габариты. Во время установки устройства, отображение парковочных линий возможно отключить. Чувствительность камеры 0.2 LUX** гарантирует изображение высокого качества даже при недостаточном освещении. Камера включается автоматически при включении задней передачи. Устройство имеет простое и надежное крепление - резьбовая фиксация. Камера выполнена в герметичном корпусе - класс защиты IP69K, что гарантирует надежную работу устройства при любых погодных условиях. Версия камеры AHD имеет увеличенное разрешение до 1280x720 пикселей, что позволяет улучшить отображение камеры на поддерживающих высокое разрешение мониторах автомобиля."]
+  },
+  {
+    id: 'цветная',
+    brand: 'Universal',
+    img: 'images/cards/цветная.jfif',
+    title: 'Универсальная цветная камера',
+    desc: 'Автоматическое  включение/выключение.',
+    gallery: ['images/cards/цветная.jfif'],
+    year: '',
+    price: '',
+    features: ["Универсальная цветная камера - обеспечивает визуальное информирование водителя об обстановке позади автомобиля во время маневрирования. Благодаря наличию режима питания от 6 вольт, параметрам видеосигнала и универсальному способу крепления, камеру возможно установить на автомобиль оснащённый штатным монитором*. При этом нет необходимости использовать дополнительные устройства согласования. При отсутствии штатного монитора, камеру возможно подключить к дополнительному монитору. Функция зеркального отображения картинки обеспечивает расположение объектов на мониторе так, как они располагаются в реальности. Функция отображения парковочных линии помогает скорректировать траекторию движения автомобиля, учитывая его габариты. Во время установки устройства, отображение парковочных линий возможно отключить. Чувствительность камеры 0.2 LUX** гарантирует изображение высокого качества даже при недостаточном освещении. Камера включается автоматически при включении задней передачи. Устройство имеет простое и надежное крепление - резьбовая фиксация. Камера выполнена в герметичном корпусе - класс защиты IP69K, что гарантирует надежную работу устройства при любых погодных условиях."]
+  }
 ];
