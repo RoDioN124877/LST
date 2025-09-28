@@ -185,7 +185,7 @@ export const models: Model[] = [
     features: []
   },
   {
-    id: 'mercedes-g-class',
+    id: 'mercedes-g-class23',
     brand: 'Mercedes',
     img: 'images/cards/Выдвижные электрические пороги ATS на Mercedes-Benz G-class 4x4 G63 — копия.jfif',
     title: 'Электропороги ATS на Mercedes-Benz G-class',
@@ -590,7 +590,7 @@ export const models: Model[] = [
     features: []
   },
   {
-    id: 'KiaCarnivalIV',
+    id: 'KiaCarnivalIV33',
     brand: 'Kia',
     img: 'images/cards/KiaCarnivalIV.jfif',
     title: 'Выдвижные электрические пороги ATS на Kia Carnival IV',
