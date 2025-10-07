@@ -4,13 +4,12 @@ export interface Model {
   img: string;
   title: string;
   desc: string;
-  gallery?: string[];
+  gallery: string[];
   year?: string;
   price?: string;
   features?: string[];
+  video?: string; // <--- добавили
 }
-
-
 
 export const models: Model[] = [
   {
@@ -93,6 +92,7 @@ export const models: Model[] = [
     year: '',
     price: '',
     features: ["Выдвижные кронштейны электропорогов ATS с большим вылетом по отношению к кузову, что делает посадку в автомобиль и выход из салона максимально удобным, комфортным и лёгким. Складные механизмы выдвижных электрических порогов ATS имеют смазочные капсулы, т.е. смазка постоянно находится в кронштейне, не вымывается на автомойках, не выбивается пескоструем с дороги. Мы позаботились о защите подвижных кронштейнов - штифты с торцов закрыты пластиковыми заглушками, которые предотвращают попадание грязи, пыли, снега, воды внутрь механизма. Благодаря этому электропороги ATS продолжают работать при низких температурах зимой. Выдвижными подножками можно управлять с приложения на мобильном телефоне - через приложение электропороги можно отключить и открыть электропороги при закрытых дверях (функция доступ к люку крыши) Пороги выдерживают более 200 кг."]
+    , video: 'https://www.youtube.com/embed/4IDBrF9nJwY', // <--- видео добавлено сюда  
   },
   {
     id: 'bmw-x7-g07',
@@ -103,8 +103,11 @@ export const models: Model[] = [
     gallery: ['images/cards/x7.jfif'],
     year: '',
     price: '',
-    features: []
+    features: [],
+    video: 'https://www.youtube.com/embed/6Cdj0EzvhTk', // <--- видео добавлено сюда
   },
+
+
   {
     id: 'x6F16',
     brand: 'BMW',
@@ -119,7 +122,7 @@ export const models: Model[] = [
 
   // Mercedes
   {
-    id: 'mercedes-gle-w167',
+    id: 'mercedes-gle-w1672',
     brand: 'Mercedes',
     img: 'images/cards/Выдвижные электропороги MAYBACH на Mercedes-Benz GLE W167.jfif',
     title: 'Электропороги MAYBACH на Mercedes-Benz GLE W167',
@@ -128,6 +131,7 @@ export const models: Model[] = [
     year: '',
     price: '',
     features: []
+    , video: 'https://www.youtube.com/embed/AVwOXDDdQs8', // <--- видео добавлено сюда
   },
   {
     id: 'mercedes-gls-x167',
@@ -150,6 +154,8 @@ export const models: Model[] = [
     year: '',
     price: '',
     features: []
+    , video: 'https://www.youtube.com/embed/QN7cpU5AaT4', // <--- видео добавлено сюда
+
   },
   {
     id: 'V-class(Short)',
@@ -474,7 +480,9 @@ export const models: Model[] = [
     gallery: ['images/cards/сTank300.jfif'],
     year: '',
     price: '',
-    features: []
+    features: [],
+    video: 'https://www.youtube.com/embed/2XcEE5k5PAc', // <--- видео добавлено сюда
+
   },
   {
     id: 'сtank-500',
@@ -519,8 +527,11 @@ export const models: Model[] = [
     gallery: ['images/cards/toyota232323233.jfif'],
     year: '',
     price: '',
-    features: []
+    features: [],
+    video: 'https://www.youtube.com/embed/9GAhHcPAnNw', // <--- видео добавлено сюда
   },
+
+
   {
     id: 'ДоводчикиToyota',
     brand: 'Toyota',
@@ -666,7 +677,9 @@ export const models: Model[] = [
     gallery: ['images/cards/Выдвижные электрические пороги ATS на Hyundai Santa Fe V.jfif'],
     year: '',
     price: '',
-    features: []
+    features: [],
+    video: 'https://www.youtube.com/embed/B5oIXuei2FI', // <--- видео добавлено сюда
+
   },
   {
     id: 'hyundai-tucson',

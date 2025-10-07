@@ -9,6 +9,7 @@ const brands = [
   "Audi",
   "Cadillac",
   "Range Rover / Land Rover",
+  "Tank",
   "Toyota",
   "Kia",
   "Hyundai",

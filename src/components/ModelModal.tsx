@@ -20,11 +20,25 @@ export const ModelModal: React.FC<ModelModalProps> = ({ model, onClose }) => {
         </button>
 
         <div className="modal-gallery">
-          <img
-            src={gallery[galleryIdx]}
-            alt={model.title}
-            className="modal-main-img"
-          />
+          {/* --- Если есть видео --- */}
+          {model.video ? (
+            <div className="video-wrapper">
+              <iframe
+                src={model.video}
+                title={model.title}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              />
+            </div>
+          ) : (
+            <img
+              src={gallery[galleryIdx]}
+              alt={model.title}
+              className="modal-main-img"
+            />
+          )}
+
+          {/* --- Галерея превьюшек --- */}
           {gallery.length > 1 && (
             <div className="modal-thumbnails">
               {gallery.map((img, idx) => (
