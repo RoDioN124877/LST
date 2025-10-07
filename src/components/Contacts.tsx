@@ -23,12 +23,7 @@ export const Contacts: React.FC = () => (
           </a>
         </li>
         <li>
-          <a href="#" className="footer-link">
-            VK
-          </a>
-        </li>
-        <li>
-          <a href="#" className="footer-link">
+          <a href="https://www.youtube.com/@Lst-mv" className="footer-link">
             YouTube
           </a>
         </li>

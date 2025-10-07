@@ -8,9 +8,15 @@ interface ModelModalProps {
 }
 
 export const ModelModal: React.FC<ModelModalProps> = ({ model, onClose }) => {
+  // если есть видео — добавляем его в начало галереи
+  const gallery = [
+    ...(model.video ? [model.video] : []),
+    ...(model.gallery && model.gallery.length > 0 ? model.gallery : [model.img]),
+  ];
+
   const [galleryIdx, setGalleryIdx] = useState(0);
-  const gallery =
-    model.gallery && model.gallery.length > 0 ? model.gallery : [model.img];
+
+  const isVideo = (item: string) => item.includes("youtube.com") || item.includes("youtu.be");
 
   return ReactDOM.createPortal(
     <div className="modal-overlay" onClick={onClose}>
@@ -20,11 +26,11 @@ export const ModelModal: React.FC<ModelModalProps> = ({ model, onClose }) => {
         </button>
 
         <div className="modal-gallery">
-          {/* --- Если есть видео --- */}
-          {model.video ? (
+          {/* Показываем видео или картинку в зависимости от текущего элемента */}
+          {isVideo(gallery[galleryIdx]) ? (
             <div className="video-wrapper">
               <iframe
-                src={model.video}
+                src={gallery[galleryIdx]}
                 title={model.title}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
@@ -38,17 +44,29 @@ export const ModelModal: React.FC<ModelModalProps> = ({ model, onClose }) => {
             />
           )}
 
-          {/* --- Галерея превьюшек --- */}
+          {/* Превьюшки под галереей */}
           {gallery.length > 1 && (
             <div className="modal-thumbnails">
-              {gallery.map((img, idx) => (
-                <img
-                  key={img}
-                  src={img}
-                  alt={`gallery-${idx}`}
-                  className={galleryIdx === idx ? "active" : ""}
+              {gallery.map((item, idx) => (
+                <div
+                  key={idx}
+                  className={`thumb-wrapper ${galleryIdx === idx ? "active" : ""}`}
                   onClick={() => setGalleryIdx(idx)}
-                />
+                >
+                  {isVideo(item) ? (
+                    <div className="video-thumb">
+                      <span className="play-icon">▶</span>
+                      <img
+                        src={`https://img.youtube.com/vi/${extractYouTubeID(
+                          item
+                        )}/hqdefault.jpg`}
+                        alt="Видео"
+                      />
+                    </div>
+                  ) : (
+                    <img src={item} alt={`gallery-${idx}`} />
+                  )}
+                </div>
               ))}
             </div>
           )}
@@ -88,4 +106,12 @@ export const ModelModal: React.FC<ModelModalProps> = ({ model, onClose }) => {
     </div>,
     document.body
   );
+};
+
+// вспомогательная функция для получения ID видео
+const extractYouTubeID = (url: string) => {
+  const regExp =
+    /(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/\s]{11})/;
+  const match = url.match(regExp);
+  return match ? match[1] : "";
 };

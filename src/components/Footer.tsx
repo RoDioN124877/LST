@@ -14,10 +14,7 @@ export const Footer: React.FC = () => (
         <a href="#" className="footer-link">
           Instagram
         </a>
-        <a href="#" className="footer-link">
-          VK
-        </a>
-        <a href="#" className="footer-link">
+        <a href="https://www.youtube.com/@Lst-mv" className="footer-link">
           YouTube
         </a>
       </div>
