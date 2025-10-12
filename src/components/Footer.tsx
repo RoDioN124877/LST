@@ -5,8 +5,8 @@ export const Footer: React.FC = () => (
     <div className="container">
       <p>© LST — Установка и ремонт электропорогов ATS. Все права защищены.</p>
       <div className="footer-links">
-        <a href="tel:+77018148080" className="footer-link">
-          +7(701)814-80-80
+        <a href="tel:+7018273715" className="footer-link">
+          +7(701)827-37-15
         </a>
         <a href="mailto:infotmm@mail.ru" className="footer-link">
           infotmm@mail.ru{" "}

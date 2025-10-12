@@ -6,8 +6,8 @@ export const Contacts: React.FC = () => (
     <div className="contact-grid">
       <div>
         <p>
-          <a href="tel:+77018148080" className="footer-link">
-            +7(701)814-80-80
+          <a href="tel:+7018273715" className="footer-link">
+            +7(701)827-37-15 
           </a>
         </p>
         <p>

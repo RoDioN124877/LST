@@ -95,7 +95,7 @@ export const ModelModal: React.FC<ModelModalProps> = ({ model, onClose }) => {
         )}
 
         <a
-          href="https://wa.me/77018148080"
+          href="https://wa.me/7018273715"
           className="btn btn-primary modal-btn"
           target="_blank"
           rel="noreferrer"
