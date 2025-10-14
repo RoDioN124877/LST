@@ -1,7 +1,7 @@
 import React from "react";
 
 export const Hero: React.FC = () => (
-  <section className="hero" id="home"  data-aos="fade-up">
+  <section className="hero" id="home" data-aos="fade-up">
     <div className="container hero-inner">
       <div className="hero-text">
         <h1>
@@ -26,7 +26,27 @@ export const Hero: React.FC = () => (
         </div>
       </div>
       <div className="hero-media">
-        <img src="images/hero.jpg" alt="Электропороги ATS" />
+        {/* <img src="images/hero.jpg" alt="Электропороги ATS" /> */}
+        <video
+          id="video-6"
+          width="100%"
+          height="auto"
+          loop={true}
+          autoPlay={true}
+          preload="auto"
+          muted={true}
+          playsInline={true}
+        >
+          <source
+            src="https://porogiats.ru/sites/default/files/videobg/video_01_4x3_0.mp4"
+            type="video/mp4"
+          />
+
+          <source
+            src="https://porogiats.ru/sites/default/files/videobg/video_01_4x3_0.webm"
+            type="video/webm"
+          />
+        </video>
       </div>
     </div>
   </section>

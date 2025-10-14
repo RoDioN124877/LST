@@ -18,10 +18,10 @@ export const Header: React.FC = () => {
             &times;
           </button>
           <a href="#products" onClick={closeMenu}>
-            Продукты
+            Подробнее
           </a>
           <a href="#cars" onClick={closeMenu}>
-            По моделям
+            Марки авто
           </a>
           <a href="#services" onClick={closeMenu}>
             Услуги
@@ -39,6 +39,7 @@ export const Header: React.FC = () => {
             Связаться
           </a>
         </nav>
+
         <button
           className="burger"
           aria-label="menu"
