@@ -14,6 +14,7 @@ import "./styles/modal.css";
 import "./styles/whatsapp.css";
 import "./styles/responsive.css";
 import "./styles/notfound.css";
+import "./styles/video-gallery.css";
 
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
@@ -25,6 +26,8 @@ import { About } from "./components/About";
 import { Contacts } from "./components/Contacts";
 import { Footer } from "./components/Footer";
 import { WhatsAppButton } from "./components/WhatsAppButton";
+import VideoGallery from "./components/VideoGallery";
+
 import AOS from "aos";
 
 function App() {
@@ -38,6 +41,7 @@ function App() {
       <main>
         <Hero />
         <Features />
+        <VideoGallery />
         <Models />
         <Services />
         <Gallery />

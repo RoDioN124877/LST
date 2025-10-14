@@ -7,7 +7,7 @@ export const Contacts: React.FC = () => (
       <div>
         <p>
           <a href="tel:+7018273715" className="footer-link">
-            +7(701)827-37-15 
+            +7(701)827-37-15  
           </a>
         </p>
         <p>
@@ -18,12 +18,12 @@ export const Contacts: React.FC = () => (
       </div>
       <ul className="socials">
         <li>
-          <a href="#" className="footer-link">
+          <a href="https://www.instagram.com/lst.tuning/" className="footer-link">
             Instagram
           </a>
         </li>
         <li>
-          <a href="https://www.youtube.com/@Lst-mv" className="footer-link">
+          <a href="https://www.youtube.com/channel/UC4SGiJhNPl4-2E7YTijujdg" className="footer-link">
             YouTube
           </a>
         </li>

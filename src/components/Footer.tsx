@@ -11,10 +11,10 @@ export const Footer: React.FC = () => (
         <a href="mailto:infotmm@mail.ru" className="footer-link">
           infotmm@mail.ru{" "}
         </a>
-        <a href="#" className="footer-link">
+        <a href="https://www.instagram.com/lst.tuning/" className="footer-link">
           Instagram
         </a>
-        <a href="https://www.youtube.com/@Lst-mv" className="footer-link">
+        <a href="https://www.youtube.com/channel/UC4SGiJhNPl4-2E7YTijujdg" className="footer-link">
           YouTube
         </a>
       </div>
