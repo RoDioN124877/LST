@@ -38,12 +38,12 @@ export const Hero: React.FC = () => (
           playsInline={true}
         >
           <source
-            src="vide/hero.mp4"
+            src="video/hero.mp4"
             type="video/mp4"
           />
 
           <source
-            src="vide/hero.webm"
+            src="video/hero.webm"
             type="video/webm"
           />
         </video>
