@@ -41,10 +41,10 @@ export const models: Model[] = [
   {
     id: 'брызговики',
     brand: 'BMW',
-    img: 'images/cards/брызговики.jfif',
+    img: 'images/cards/brizg.jfif',
     title: 'Брызговики BMW X7 G07/X6 G06/X5 G05',
     desc: 'Плавное срабатывание и управление — совместимость с электроникой автомобиля.',
-    gallery: ['images/cards/брызговики.jfif'],
+    gallery: ['images/cards/brizg.jfif'],
     year: '',
     price: '',
     features: []
@@ -52,10 +52,10 @@ export const models: Model[] = [
   {
     id: 'Хрустальнаяручка',
     brand: 'BMW',
-    img: 'images/cards/Хрустальнаяручка.jfif',
+    img: 'images/cards/hrust.jfif',
     title: 'Хрустальная ручка АКПП, кнопка старт-стоп, контролер шайба BMW комплект (M style/X style))',
     desc: 'Плавное срабатывание и управление — совместимость с электроникой автомобиля.',
-    gallery: ['images/cards/Хрустальнаяручка.jfif'],
+    gallery: ['images/cards/hrust.jfif'],
     year: '',
     price: '',
     features: []
@@ -63,10 +63,10 @@ export const models: Model[] = [
   {
     id: 'насадкиглушителя',
     brand: 'BMW',
-    img: 'images/cards/насадкиглушителя.jfif',
+    img: 'images/cards/nasadki.jfif',
     title: 'Чёрные насадки глушителя BMW X5(G05) /X7(G07)',
     desc: 'Плавное срабатывание и управление — совместимость с электроникой автомобиля.',
-    gallery: ['images/cards/насадкиглушителя.jfif'],
+    gallery: ['images/cards/nasadki.jfif'],
     year: '',
     price: '',
     features: []
@@ -74,10 +74,10 @@ export const models: Model[] = [
   {
     id: 'Решеткарадиатора',
     brand: 'BMW',
-    img: 'images/cards/Решеткарадиатора.jfif',
+    img: 'images/cards/reshetka.jfif',
     title: 'Решетка радиатора для BMW X5/Х7 черная',
     desc: 'Плавное срабатывание и управление — совместимость с электроникой автомобиля.',
-    gallery: ['images/cards/Решеткарадиатора.jfif'],
+    gallery: ['images/cards/reshetka.jfif'],
     year: '',
     price: '',
     features: []
@@ -85,10 +85,10 @@ export const models: Model[] = [
   {
     id: 'X5G05пороги',
     brand: 'BMW',
-    img: 'images/cards/Выдвижные электрические пороги ATS на BMW X5 G05.jfif',
+    img: 'images/cards/ATSnaBMWX5G05.jfif',
     title: 'Выдвижные электрические пороги ATS на BMW X5 G05  ',
     desc: 'Плавное срабатывание и управление — совместимость с электроникой автомобиля.',
-    gallery: ['images/cards/Выдвижные электрические пороги ATS на BMW X5 G05.jfif'],
+    gallery: ['images/cards/ATSnaBMWX5G05.jfif'],
     year: '',
     price: '',
     features: ["Выдвижные кронштейны электропорогов ATS с большим вылетом по отношению к кузову, что делает посадку в автомобиль и выход из салона максимально удобным, комфортным и лёгким. Складные механизмы выдвижных электрических порогов ATS имеют смазочные капсулы, т.е. смазка постоянно находится в кронштейне, не вымывается на автомойках, не выбивается пескоструем с дороги. Мы позаботились о защите подвижных кронштейнов - штифты с торцов закрыты пластиковыми заглушками, которые предотвращают попадание грязи, пыли, снега, воды внутрь механизма. Благодаря этому электропороги ATS продолжают работать при низких температурах зимой. Выдвижными подножками можно управлять с приложения на мобильном телефоне - через приложение электропороги можно отключить и открыть электропороги при закрытых дверях (функция доступ к люку крыши) Пороги выдерживают более 200 кг."]
@@ -124,10 +124,10 @@ export const models: Model[] = [
   {
     id: 'mercedes-gle-w1672',
     brand: 'Mercedes',
-    img: 'images/cards/Выдвижные электропороги MAYBACH на Mercedes-Benz GLE W167.jfif',
+    img: 'images/cards/MAYBACHMercedes-BenzGLE W167.jfif',
     title: 'Электропороги MAYBACH на Mercedes-Benz GLE W167',
     desc: 'Надежные механизмы, защита от грязи и воды.',
-    gallery: ['images/cards/Выдвижные электропороги MAYBACH на Mercedes-Benz GLE W167.jfif'],
+    gallery: ['MAYBACHMercedes-BenzGLE W167.jfif'],
     year: '',
     price: '',
     features: []
@@ -136,10 +136,10 @@ export const models: Model[] = [
   {
     id: 'mercedes-gls-x167',
     brand: 'Mercedes',
-    img: 'images/cards/Выдвижные электрические пороги ATS на Mercedes-Benz GLS X167.jfif',
+    img: 'images/cards/ATSMercedes-BenzGLSX167.jfif',
     title: 'Электропороги ATS на Mercedes-Benz GLS X167',
     desc: 'Официальная гарантия, штатная установка, интеграция с электроникой.',
-    gallery: ['images/cards/Выдвижные электрические пороги ATS на Mercedes-Benz GLS X167.jfif'],
+    gallery: ['images/cards/ATSMercedes-BenzGLSX167.jfif'],
     year: '',
     price: '',
     features: []
@@ -193,10 +193,10 @@ export const models: Model[] = [
   {
     id: 'mercedes-g-class23',
     brand: 'Mercedes',
-    img: 'images/cards/Выдвижные электрические пороги ATS на Mercedes-Benz G-class 4x4 G63 — копия.jfif',
+    img: 'images/cards/ATSMercedes-BenzG-class4x4G632.jfif',
     title: 'Электропороги ATS на Mercedes-Benz G-class',
     desc: 'Премиальная комплектация, надежность и долговечность.',
-    gallery: ['images/cards/Выдвижные электрические пороги ATS на Mercedes-Benz G-class 4x4 G63 — копия.jfif'],
+    gallery: ['images/cards/ATSMercedes-BenzG-class4x4G632 .jfif'],
     year: '',
     price: '',
     features: []
@@ -204,10 +204,10 @@ export const models: Model[] = [
   {
     id: 'mercedes-g-class',
     brand: 'Mercedes',
-    img: 'images/cards/ддм.jfif',
+    img: 'images/cards/ddm.jfif',
     title: 'Доводчиков дверей на Мерседес Mercedes G class G63, G500, AMG (Gelandewagen) (2021+)',
     desc: 'Премиальная комплектация, надежность и долговечность.',
-    gallery: ['images/cards/ддм.jfif'],
+    gallery: ['images/cards/ddm.jfif'],
     year: '',
     price: '',
     features: []
@@ -226,10 +226,10 @@ export const models: Model[] = [
   {
     id: 'свMercedesV-class',
     brand: 'Mercedes',
-    img: 'images/cards/свMercedesV-class.jfif',
+    img: 'images/cards/svMercedesV-class.jfif',
     title: 'Накладки на пороги с подсветкой и проекцией на Mercedes V-class',
     desc: 'Премиальная комплектация, надежность и долговечность.',
-    gallery: ['images/cards/свMercedesV-class.jfif'],
+    gallery: ['images/cards/svMercedesV-class.jfif'],
     year: '',
     price: '',
     features: []
@@ -319,10 +319,10 @@ export const models: Model[] = [
   {
     id: 'Лестницаdefender-130',
     brand: 'Range Rover / Land Rover',
-    img: 'images/cards/ЛестницаLand.jfif',
+    img: 'images/cards/lesLand.jfif',
     title: 'Лестница на автомобиль Land Rover Defender',
     desc: 'С кодированием в InControl и датчиком Холла.',
-    gallery: ['images/cards/ЛестницаLand.jfif'],
+    gallery: ['images/cards/lesLand.jfif'],
     year: '',
     price: '',
     features: []
@@ -330,10 +330,10 @@ export const models: Model[] = [
   {
     id: 'багажныйdefender-130',
     brand: 'Range Rover / Land Rover',
-    img: 'images/cards/багажныйLand.jfif',
+    img: 'images/cards/bagLand.jfif',
     title: 'Боковой багажный бокс на автомобиль Land Rover Defender',
     desc: 'С кодированием в InControl и датчиком Холла.',
-    gallery: ['images/cards/ЛестницаLand.jfif'],
+    gallery: ['images/cards/bagLand.jfif'],
     year: '',
     price: '',
     features: []
@@ -341,10 +341,10 @@ export const models: Model[] = [
   {
     id: 'КрышкаLand-130',
     brand: 'Range Rover / Land Rover',
-    img: 'images/cards/КрышкаLand.jfif',
+    img: 'images/cards/srishLand.jfif',
     title: 'Крышка запасного колеса на автомобиль Land Rover Defender',
     desc: 'С кодированием в InControl и датчиком Холла.',
-    gallery: ['images/cards/КрышкаLand.jfif'],
+    gallery: ['images/cards/srishLand.jfif'],
     year: '',
     price: '',
     features: []
@@ -352,10 +352,10 @@ export const models: Model[] = [
   {
     id: 'БрызговикиLand-130',
     brand: 'Range Rover / Land Rover',
-    img: 'images/cards/БрызговикиLand.jfif',
+    img: 'images/cards/brLand.jfif',
     title: 'Брызговики на автомобиль Land Rover Defender 2020 (бол/мал)',
     desc: 'С кодированием в InControl и датчиком Холла.',
-    gallery: ['images/cards/БрызговикиLand.jfif'],
+    gallery: ['images/cards/brLand.jfif'],
     year: '',
     price: '',
     features: []
@@ -417,10 +417,10 @@ export const models: Model[] = [
   {
     id: 'двериRangeRoverVogue',
     brand: 'Range Rover / Land Rover',
-    img: 'images/cards/двериRangeRoverVogue.jfif',
+    img: 'images/cards/dorRangeRoverVogue.jfif',
     title: 'Ручки внешние для двери Range Rover Vogue 2013-2020 (белые)',
     desc: 'Алгоритм работы как у оригинала — задержка захода при закрытии двери.',
-    gallery: ['images/cards/двериRangeRoverVogue.jfif'],
+    gallery: ['images/cards/dorRangeRoverVogue.jfif'],
     year: '',
     price: '',
     features: []
@@ -428,10 +428,10 @@ export const models: Model[] = [
   {
     id: 'двериRangeRoverVogueчерные',
     brand: 'Range Rover / Land Rover',
-    img: 'images/cards/двериRangeRoverVogueчерные.jfif',
+    img: 'images/cards/dorRangeRoverVogueblack.jfif',
     title: 'Ручки внешние для двери Range Rover Vogue 2013-2020 (черные)',
     desc: 'Алгоритм работы как у оригинала — задержка захода при закрытии двери.',
-    gallery: ['images/cards/двериRangeRoverVogueчерные.jfif'],
+    gallery: ['images/cards/dorRangeRoverVogueblack.jfif'],
     year: '',
     price: '',
     features: []
@@ -450,10 +450,10 @@ export const models: Model[] = [
   {
     id: 'Обвесrange-rover-l460',
     brand: 'Range Rover / Land Rover',
-    img: 'images/cards/ОбвесRover.jfif',
+    img: 'images/cards/ovesRover.jfif',
     title: 'Обвес на Range Rover L405 2017 - 2022 г. под Range Rover L460',
     desc: 'Алгоритм работы как у оригинала — задержка захода при закрытии двери.',
-    gallery: ['images/cards/ОбвесRover.jfif'],
+    gallery: ['images/cards/ovesRover.jfif'],
     year: '',
     price: '',
     features: []
@@ -474,10 +474,10 @@ export const models: Model[] = [
   {
     id: 'сtank-300',
     brand: 'Tank',
-    img: 'images/cards/сTank300.jfif',
+    img: 'images/cards/sTank300.jfif',
     title: 'Система электропривода багажника на TANK 300',
     desc: 'Штатная установка, интеграция с электроникой, гарантия 2 года.',
-    gallery: ['images/cards/сTank300.jfif'],
+    gallery: ['images/cards/sTank300.jfif'],
     year: '',
     price: '',
     features: [],
@@ -535,10 +535,10 @@ export const models: Model[] = [
   {
     id: 'ДоводчикиToyota',
     brand: 'Toyota',
-    img: 'images/cards/ДоводчикиToyota.jfif',
+    img: 'images/cards/dovToyota.jfif',
     title: 'Доводчики дверей на Toyota',
     desc: 'Доводчики дверей на Toyota LC300, Prada 150,200, 250, camry 75  и многие модели Toyota',
-    gallery: ['images/cards/ДоводчикиToyota.jfif'],
+    gallery: ['images/cards/dovToyota.jfif'],
     year: '',
     price: '',
     features: []
@@ -579,10 +579,10 @@ export const models: Model[] = [
   {
     id: 'toyota-land-cruiser-300',
     brand: 'Toyota',
-    img: 'images/cards/Система электропривода багажника на Toyota LC300.jfif',
+    img: 'images/cards/bagToyotaLC300.jfif',
     title: 'Электропороги ATS на Toyota Land Cruiser 300',
     desc: 'Совместимость с заводской электроникой, гарантия 2 года.',
-    gallery: ['images/cards/Система электропривода багажника на Toyota LC300.jfif'],
+    gallery: ['images/cards/bagToyotaLC300.jfif'],
     year: '',
     price: '',
     features: []
@@ -592,10 +592,10 @@ export const models: Model[] = [
   {
     id: 'kia-sportage',
     brand: 'Kia',
-    img: 'images/cards/Система электропривода багажника на Kia Sportage.jfif',
+    img: 'images/cards/bagKiaSportage.jfif',
     title: 'Система электропривода багажника на Kia Sportage',
     desc: 'Современные технологии и адаптация под авто.',
-    gallery: ['images/cards/Система электропривода багажника на Kia Sportage.jfif'],
+    gallery: ['images/cards/bagKiaSportage.jfif'],
     year: '',
     price: '',
     features: []
@@ -627,10 +627,10 @@ export const models: Model[] = [
   {
     id: 'hyundai-staria',
     brand: 'Hyundai',
-    img: 'images/cards/Выдвижные электропороги ATS на Hyundai Staria.jfif',
+    img: 'images/cards/ATSnaHyundaiStaria.jfif',
     title: 'Электропороги ATS на Hyundai Staria',
     desc: 'Штатная установка, гарантия 2 года.',
-    gallery: ['images/cards/Выдвижные электропороги ATS на Hyundai Staria.jfif'],
+    gallery: ['images/cards/ATSnaHyundaiStaria.jfif'],
     year: '',
     price: '',
     features: []
@@ -671,10 +671,10 @@ export const models: Model[] = [
   {
     id: 'hyundai-santa-fe-v',
     brand: 'Hyundai',
-    img: 'images/cards/Выдвижные электрические пороги ATS на Hyundai Santa Fe V.jfif',
+    img: 'images/cards/ATSnaHyundaiSantaFeV.jfif',
     title: 'Электропороги ATS на Hyundai Santa Fe V',
     desc: 'Штатная установка, гарантия 2 года.',
-    gallery: ['images/cards/Выдвижные электрические пороги ATS на Hyundai Santa Fe V.jfif'],
+    gallery: ['images/cards/ATSnaHyundaiSantaFeV.jfif'],
     year: '',
     price: '',
     features: [],
@@ -684,10 +684,10 @@ export const models: Model[] = [
   {
     id: 'hyundai-tucson',
     brand: 'Hyundai',
-    img: 'images/cards/Система электропривода багажника на Hyundai Tucson.jfif',
+    img: 'images/cards/naHyundaiTucson.jfif',
     title: 'Система электропривода багажника на Hyundai Tucson',
     desc: 'Штатная установка, гарантия 2 года.',
-    gallery: [],
+    gallery: ["naHyundaiTucson.jfif"],
     year: '',
     price: '',
     features: []
@@ -695,7 +695,7 @@ export const models: Model[] = [
   {
     id: 'hyundai-custin',
     brand: 'Hyundai',
-    img: 'images/cards/Электропривод боковой двери Hyundai CUSTIN.jfif',
+    img: 'images/cards/dveriHyundaiCUSTIN.jfif',
     title: 'Электропривод боковой двери Hyundai CUSTIN',
     desc: 'Штатная установка, гарантия 2 года.',
     gallery: [],
@@ -754,7 +754,7 @@ export const models: Model[] = [
   {
     id: 'lexus-lx500',
     brand: 'Lexus',
-    img: 'images/cards/Выдвижные электрические пороги ATS на Lexus LX500.jfif',
+    img: 'images/cards/ATSnaLexusLX500.jfif',
     title: 'Электропороги ATS на Lexus LX500',
     desc: 'Штатная интеграция, надежность, гарантия.',
     gallery: [],
@@ -789,7 +789,7 @@ export const models: Model[] = [
   {
     id: 'rox-01',
     brand: 'Rox',
-    img: 'images/cards/Система электропривода багажника на Rox 01.jfif',
+    img: 'images/cards/naRox01.jfif',
     title: 'Система электропривода багажника на Rox 01',
     desc: 'Установка на любые автомобили, индивидуальные решения.',
     gallery: [],
@@ -836,7 +836,7 @@ export const models: Model[] = [
   {
     id: 'genesis-gv80',
     brand: 'Genesis',
-    img: 'images/cards/Выдвижные электрические пороги ATS на Genesis GV80.jfif',
+    img: 'images/cards/ATSnaGenesisGV80.jfif',
     title: 'Электропороги для Genesis GV80',
     desc: 'Совместимость с электроникой, гарантия 2 года.',
     gallery: [],
@@ -847,7 +847,7 @@ export const models: Model[] = [
   {
     id: 'дgenesis-gv80',
     brand: 'Genesis',
-    img: 'images/cards/дверейGenesisGv80.jfif',
+    img: 'images/cards/dveriGenesisGv80.jfif',
     title: 'Доводчики дверей Genesis Gv80',
     desc: 'Совместимость с электроникой, гарантия 2 года.',
     gallery: [],
@@ -917,7 +917,7 @@ export const models: Model[] = [
   {
     id: 'дjetur-T2',
     brand: 'Jetur',
-    img: 'images/cards/дJeturT2.jfif',
+    img: 'images/cards/dJeturT2.jfif',
     title: 'Электропривод Задней Двери Jetour T2',
     desc: 'Штатная установка, гарантия 2 года.',
     gallery: [],
@@ -928,7 +928,7 @@ export const models: Model[] = [
   {
     id: 'эjetur-T2',
     brand: 'Jetur',
-    img: 'images/cards/эJeturT2.jfif',
+    img: 'images/cards/eJeturT2.jfif',
     title: 'Выдвижные электрические пороги ATS на Jetour T2',
     desc: 'Штатная установка, гарантия 2 года.',
     gallery: [],
@@ -961,10 +961,10 @@ export const models: Model[] = [
   {
     id: 'слепых',
     brand: 'Universal',
-    img: 'images/cards/слепых.jfif',
+    img: 'images/cards/blinde.jfif',
     title: 'Система контроля слепых зон.',
     desc: 'радары миллиметрового диапазона 24ГГц.',
-    gallery: ['images/cards/слепых.jfif'],
+    gallery: ['images/cards/blinde.jfif'],
     year: '',
     price: '',
     features: ["В системе AVILINE SmartASSIST используются  радары миллиметрового диапазона 24ГГц.  Радары не портят внешний вид автомобиля, так как  устанавливаются непосредственно на кузов автомобиля за задним бампером. Зона сканирования радаров  составляет 20 метров от заднего бампера назад и 3,5 метра от боковых стоек автомобиля вправо и влево соответственно. SmartASSIST - помощник при перестроении.",
@@ -986,10 +986,10 @@ export const models: Model[] = [
   {
     id: 'ск',
     brand: 'Universal',
-    img: 'images/cards/ск.jfif',
+    img: 'images/cards/sk.jfif',
     title: 'Интерактивный смарт ключ (универсальный)',
     desc: 'Управление замками дверей, багажника, запуск двигателя.',
-    gallery: ['images/cards/ск.jfif'],
+    gallery: ['images/cards/sk.jfif'],
     year: '',
     price: '',
     features: []
@@ -997,10 +997,10 @@ export const models: Model[] = [
   {
     id: 'заднего',
     brand: 'Universal',
-    img: 'images/cards/заднего.jfif',
+    img: 'images/cards/bavjjj.jfif',
     title: 'Камера заднего вида',
     desc: 'Универсальная цветная камера.',
-    gallery: ['images/cards/заднего.jfif'],
+    gallery: ['images/cards/bavjjj.jfif'],
     year: '',
     price: '',
     features: ["Универсальная цветная камера - обеспечивает визуальное информирование водителя об обстановке позади автомобиля во время маневрирования. Благодаря наличию режима питания от 6 вольт, параметрам видеосигнала и универсальному способу крепления, камеру возможно установить на автомобиль оснащённый штатным монитором*. При этом нет необходимости использовать дополнительные устройства согласования. При отсутствии штатного монитора, камеру возможно подключить к дополнительному монитору. Функция зеркального отображения картинки обеспечивает расположение объектов на мониторе так, как они располагаются в реальности. Функция отображения парковочных линии помогает скорректировать траекторию движения автомобиля, учитывая его габариты. Во время установки устройства, отображение парковочных линий возможно отключить. Чувствительность камеры 0.2 LUX** гарантирует изображение высокого качества даже при недостаточном освещении. Камера включается автоматически при включении задней передачи. Устройство имеет простое и надежное крепление - резьбовая фиксация. Камера выполнена в герметичном корпусе - класс защиты IP69K, что гарантирует надежную работу устройства при любых погодных условиях. Версия камеры AHD имеет увеличенное разрешение до 1280x720 пикселей, что позволяет улучшить отображение камеры на поддерживающих высокое разрешение мониторах автомобиля."]
@@ -1008,10 +1008,10 @@ export const models: Model[] = [
   {
     id: 'цветная',
     brand: 'Universal',
-    img: 'images/cards/цветная.jfif',
+    img: 'images/cards/color.jfif',
     title: 'Универсальная цветная камера',
     desc: 'Универсальная цветная камера.',
-    gallery: ['images/cards/цветная.jfif'],
+    gallery: ['images/cards/color.jfif'],
     year: '',
     price: '',
     features: ["Универсальная цветная камера - обеспечивает визуальное информирование водителя об обстановке позади автомобиля во время маневрирования. Благодаря наличию режима питания от 6 вольт, параметрам видеосигнала и универсальному способу крепления, камеру возможно установить на автомобиль оснащённый штатным монитором*. При этом нет необходимости использовать дополнительные устройства согласования. При отсутствии штатного монитора, камеру возможно подключить к дополнительному монитору. Функция зеркального отображения картинки обеспечивает расположение объектов на мониторе так, как они располагаются в реальности. Функция отображения парковочных линии помогает скорректировать траекторию движения автомобиля, учитывая его габариты. Во время установки устройства, отображение парковочных линий возможно отключить. Чувствительность камеры 0.2 LUX** гарантирует изображение высокого качества даже при недостаточном освещении. Камера включается автоматически при включении задней передачи. Устройство имеет простое и надежное крепление - резьбовая фиксация. Камера выполнена в герметичном корпусе - класс защиты IP69K, что гарантирует надежную работу устройства при любых погодных условиях."]

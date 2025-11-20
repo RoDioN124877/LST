@@ -34,7 +34,7 @@ export const Models: React.FC = () => {
     <section className="models container" id="cars" data-aos="fade-up">
       <h2>Установки по моделям</h2>
       <p className="muted">
-        Реальные проекты и адаптированные решения под конкретные автомобили.
+        Реальные проекты иz адаптированные решения под конкретные автомобили.
       </p>
       <div className="filters">
         {brands.map((brand) => (

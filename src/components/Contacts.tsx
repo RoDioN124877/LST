@@ -16,18 +16,18 @@ export const Contacts: React.FC = () => (
           </a>
         </p>
       </div>
-      <ul className="socials">
-        <li>
+      <div className="socials">
+        <p>
           <a href="https://www.instagram.com/lst.tuning/" className="footer-link">
             Instagram
           </a>
-        </li>
-        <li>
+        </p>
+        <p>
           <a href="https://www.youtube.com/channel/UC4SGiJhNPl4-2E7YTijujdg" className="footer-link">
             YouTube
           </a>
-        </li>
-      </ul>
+        </p>
+      </div>
     </div>
   </section>
 );
